@@ -94,9 +94,9 @@ body{
   
   .image-container img {
     position: absolute;
-    top: 110px; /* Adjust the value to move the image vertically */
-    left: 65%; /* Adjust the value to move the image horizontally */
-    height: 380px;
+    top: 100px; /* Adjust the value to move the image vertically */
+    left: 64%; /* Adjust the value to move the image horizontally */
+    height: 400px;
   }
 
 .home-content .btn-box {
@@ -171,7 +171,7 @@ body{
 }
 
 .experiences-list{
-    padding: 50px -5%;
+    padding: 40px -5%;
     padding-top: 70px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -215,3 +215,80 @@ body{
     transform: translateY(-10px);
 }
 
+#projects{
+    padding: 50px 3%;
+
+}
+
+.work img{
+    width: 450px;
+}
+
+.projs{
+    padding: 50px;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.projs:nth-child(1) h1{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.projs:nth-child(1) p{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.projs:nth-child(2) h1{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.projs:nth-child(2) p{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.projs:nth-child(3) h1{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.projs:nth-child(3) p{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.wrapper{
+    display: flex;
+    width: 300vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    background-color: black;
+}
+.proj{
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
